@@ -2449,10 +2449,15 @@ body.ie ._ibg img {
     bottom: calc(50% - 1px);
   }
 
+  .footer__row {
+    margin: 0;
+  }
+
   .footer__column {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 50%;
             flex: 0 1 50%;
+    padding: 0;
   }
 
   .footer__text {
